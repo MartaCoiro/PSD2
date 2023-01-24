@@ -1,0 +1,24 @@
+typedef struct list *List;
+
+List newList();
+int isEmptyList(List list);
+void addHead(List list ,Item item);
+Item removeHead(List list);
+Item getHead(List list);
+int sizeList(List list);
+void printListIter(List list );
+void printRec(struct node *p);
+void printConRec(List list);
+Item searchList(List list,Item item, int *pos);
+Item searchRic(struct node *p,Item item,int *pos);
+Item removeListItem(List list,Item item);
+Item removeListPos(List list,int pos);int addListItem(List list, Item item, int pos);
+int addListTail(List l,Item i);
+void reverseListIter(List list );
+void reverseListRec(struct node *head,struct node *tail);
+void reverseListConRec(List list) ;
+void cloneListIter(List list );
+void cloneListRic(struct node *p,List clone);
+void cloneListConRic(List list);
+void addListTailOttimizzata(List list,Item item);
+Item removeHeadOttimizzata(List list);

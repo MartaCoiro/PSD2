@@ -1,0 +1,26 @@
+typedef struct node *BTree;
+
+BTree newBtree();
+int isEmptyBtree(BTree t);
+BTree builBTree(BTree t1, BTree t2,Item i);
+Item getBTreeRoot(BTree t);
+Item getLeft(BTree t);
+Item getRight(BTree t);
+void preOrder(BTree t);
+void postOrder(BTree t );
+void inOrder(BTree t);
+void preOrderIter(BTree t);
+void postOrderIter(BTree t);
+void inOrderIter(BTree t);
+void byLevel(BTree t);
+int heighRic(BTree t );
+int max(int x,int y) ;
+int numNodi(BTree t);
+int conta_el(BTree t,Item e);
+int member(BTreet ,Item e);
+int massimo(int a,int b, int c );
+int minimo(int a,int b,int c) ;
+int getMax(BTree t);
+int getMin(BTree t);
+List funzione(BTree t,Item k);
+int heightRic(BTree t );
